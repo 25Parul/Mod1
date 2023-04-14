@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin:2%;
+}
+
+body {
+    background-color: beige;
+    width:100vw;
+    height: 100vh;
+    
+}
+
+h1 {
+    display:flex;
+    align-items: center;
+    margin: 2%;
+}
+
+nav {
+    display:flex;
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    border: black 2px solid;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 2%;
+}
