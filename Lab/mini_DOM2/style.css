@@ -1,0 +1,14 @@
+h1 {
+    display:flex;
+    justify-content: center;
+    background-color: burlywood;
+
+}
+
+
+#hide-btn {
+    border: solid black 2px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px rgb(139, 133, 133);
+    background-color:rgb(157, 201, 186);
+}
