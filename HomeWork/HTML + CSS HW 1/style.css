@@ -1,30 +1,170 @@
 * {
     box-sizing: border-box;
-    margin:2%;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
     background-color: beige;
     width:100vw;
     height: 100vh;
-    
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     display:flex;
     align-items: center;
     margin: 2%;
+    font-weight:bolder;
+    padding-top: 1%;
 }
 
 nav {
     display:flex;
     height: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    border: black 2px solid;
     background-color: brown;
-    font-weight: bold;
-    font-size: 200%;
+    font-size: 150%;
     margin: 2%;
+    color: white;
 }
+
+#imgContent {
+    display: flex;
+    margin-left: 2%;
+    
+}
+
+#imgContent h4 {
+    margin-left: 1%;
+    font-size: 200%;
+    font-weight: bolder;  
+    margin-top: 0;
+    margin-right: 1%;
+}
+
+#imgContent p {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: large;
+}
+
+#img-parent-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.traits-dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40%;
+}
+
+li {
+    font-size: large;
+    list-style-position: inside; /*keep the position of bullets points right below the heading*/
+}
+
+.dropbtn {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: beige;
+    box-shadow: 5px 5px 5px rgb(59, 154, 201);
+    border: none;
+    cursor: pointer; /*cursor looks like hand.*/
+  }
+  
+
+  .dropdown-content {
+    display: none; /*makes the text invisible*/
+    background-color: beige;
+    min-width: 160px;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block; /* to drop the content in blocks not in the same line */
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(68, 153, 219);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+.img-container {
+    width: 100%;
+    height: 150px; /* set a fixed height */
+}
+
+footer {
+    border-top: black 2px solid;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /*changes the color of the button to a darker green color (#3e8e41) when the user hovers over it*/
+  }
+      
